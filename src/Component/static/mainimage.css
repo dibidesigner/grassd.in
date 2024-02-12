@@ -1,8 +1,9 @@
 .maincar{
     background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\maincarimage.png);
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    max-width: 100vw;
+    object-fit: fill;
   }
   .top{
     height: 50vh;
@@ -110,5 +111,7 @@
   
   .background{
     background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
+    width: 100vw;
+    height: auto;
   }
   

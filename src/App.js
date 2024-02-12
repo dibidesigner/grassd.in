@@ -12,10 +12,10 @@ function App() {
     <>
       <Navbar />
       <Mainimage/>
-      <div className='background'>
+      {/* <div className='background'>
           <Carorder />
-      </div>
-      <Offer />
+      </div> */}
+      {/* <Offer /> */}
       
       
       

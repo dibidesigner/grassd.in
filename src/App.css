@@ -20,7 +20,7 @@
   background-color: black;
   display: flex;
   flex-direction: row;
-  position: fixed;
+  
 }
 .logo{
   width: 20%;
