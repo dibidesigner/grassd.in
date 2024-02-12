@@ -1,0 +1,28 @@
+.blackimage{
+    height:32vh;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+
+ }
+ .guideshape{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+
+
+
+ @media (max-width:600px){
+  .blackimage{
+    height:19vh;
+    width: 150px;
+    background-color: black;
+    text-align: center;
+    font-size: 8px;
+
+ }
+ }

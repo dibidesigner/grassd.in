@@ -1,0 +1,181 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.listmenu{
+  height: auto;
+  width: 200px;
+  background-color: rgb(241, 18, 18);
+  font-size: 9.5px;
+  visibility: hidden;
+  margin-top: 20vh;
+  
+}
+.navbar{
+  width: 100vw;
+  height: 7vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+.logo{
+  width: 20%;
+  height: 7vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height: 4vh;
+  width: auto;
+}
+.menu{
+  width: 55%;
+  height: 7vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  
+  
+}
+.login{
+  width: 25%;
+  height: 7vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.becomeahost{
+  color: #5ab617;
+  text-decoration: none;
+  cursor: pointer;
+}
+.becomeahost:hover{
+  color: #3e8b07;
+  text-decoration: underline;
+}
+.loginbutton{
+  height: 3vh;
+  width: 200px;
+  background-color: #5ab617;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.loginbutton:hover{
+  background-color: #419703;
+  height: 3.5vh;
+  width: 202px;
+}
+.menubar{
+  visibility: hidden;
+}
+
+.menu h2{
+   height: 7vh;
+   width: 180px;
+   background-color: transparent;
+   color:rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.menu h2:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+@media (max-width:600px) {
+  .logo img{
+    height: 2vh;
+    width: auto;
+  }
+  .login{
+    width: 20%;
+  }
+  .menu{
+    visibility: hidden;
+    width: 1%;
+  }
+  .login{
+    width: 70%;
+  }
+  .loginbutton{
+    height: 2.5vh;
+    width: 120px;
+    background-color: #5ab617;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  .menubar{
+    width: 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+
+  }
+  .bar{
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+  }
+  .listmenu{
+    height: auto;
+    width: 100vw;
+    background-color: transparent;
+    font-size: 10px;
+    margin: 0px;
+    visibility: visible;
+    position: absolute;
+  }
+  .items{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+  }
+ 
+  
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

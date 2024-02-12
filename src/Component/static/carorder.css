@@ -1,0 +1,118 @@
+.carorder{
+    height: 95vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+  }
+  .innercarorder{
+    height: 90vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+  .griditems1{
+    width: 20%;
+    height: 90vh;
+    background-color: rgb(255, 217, 0);
+  }
+  .griditems2{
+    width: 80%;
+    height: 90vh;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+  }
+  .shape1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .shape2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  .arrow{
+    height: 50px;
+    width: 30px;
+    background-color: transparent;
+    font-size: 50px;
+    color: black;
+  }
+  .hr{
+    margin: 60px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    flex-direction: row;
+  }
+  .howto{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .howto h3{
+    font-size: 35px;
+    color: black;
+  }
+  .hrline{
+    width: 100vw;
+  }
+  .seemore{
+    height: 20px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .seemore:hover{
+    background-color: #00cc0e;
+    color: white;
+  }
+  
+  
+  @media (max-width:600px){
+    .shape1{
+      gap: 30px;
+    }
+    .griditems1{
+      width: 2%;
+      height: 90vh;
+      background-color: rgb(255, 217, 0);
+      visibility: hidden;
+    }
+    .howto h3{
+      font-size: 25px;
+      color: black;
+    }
+    .hr{
+      margin: 45px 0px 9px 0px;
+    }
+    .howto{
+      height: 10vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .shape2{
+      gap: 30px;
+    
+    }
+  }
+  
