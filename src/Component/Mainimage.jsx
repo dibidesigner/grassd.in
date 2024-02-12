@@ -23,6 +23,9 @@ function Mainimage(){
                <div className='buttommainleft'>
                     <select className="searchinput">
                         <option>Bhubaneswar</option>
+                        <option>Cuttack</option>
+                        <option>Khurda</option>
+                        <option>Puri</option>
                     </select>
                     <input type="date" className="searchinput" />
                     <input type="submit" value="Search" className="searchbutton"/>

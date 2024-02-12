@@ -1,9 +1,23 @@
-.listmenu{
+
+@media (max-width:600px) {
+  .listmenu{
     height: auto;
     width: 200px;
-    background-color: rgb(241, 18, 18);
+    background-color: rgb(0, 0, 0);
     font-size: 9.5px;
-    visibility: hidden;
-    margin-top: 20vh;
+    visibility: visible;
+    margin-top: 7vh;
     
   }
+  .items{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  hr{
+    width: 100vw;
+  }
+}

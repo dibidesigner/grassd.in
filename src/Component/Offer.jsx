@@ -10,7 +10,7 @@ function Offer() {
     <>
         <div className="offer">
            <div className="offerinner">
-              
+               
            </div>
             
         </div>
