@@ -1,4 +1,5 @@
 import React from "react";
+import ".//static/Offer.css";
 
 
 
@@ -8,7 +9,10 @@ function Offer() {
   return (
     <>
         <div className="offer">
-            <h2>Offer</h2>
+           <div className="offerinner">
+              
+           </div>
+            
         </div>
     </>
   );

@@ -10,28 +10,27 @@ function Mainimage(){
         <div className='maincar'>
             
             <div className='top'>
-                <div className='mainleft passion'>
+                <div className='topmainleft'>
                     <h3 className='live'>Live your</h3>
-                    <h3 className='passion'>
-                        PASSION</h3>
+                    <h3 className='passion'>PASSION</h3>
                 </div>
-                <div className='mainright'>
+                <div className='topmainright'>
                 
                 </div>
             </div>
            
             <div className='buttom'>
-               <div className='mainleft'>
+               <div className='buttommainleft'>
                     <select className="searchinput">
                         <option>Bhubaneswar</option>
                     </select>
-                    <input type="Date" className="searchinput" />
-                    <input type="submit" className="searchbutton"/>
+                    <input type="date" className="searchinput" />
+                    <input type="submit" value="Search" className="searchbutton"/>
                 </div>
-                <div className='mainright'>
-                
+                <div className='buttommainright'>
+                     
                 </div>
-                
+                 
                
             </div>
         </div>

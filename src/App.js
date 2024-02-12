@@ -11,11 +11,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Mainimage/>
-      {/* <div className='background'>
+      <Mainimage />
+      <div className='background'>
           <Carorder />
-      </div> */}
-      {/* <Offer /> */}
+          <Offer />
+      </div>
+      
       
       
       

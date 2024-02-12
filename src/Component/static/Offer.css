@@ -1,0 +1,36 @@
+.offer{
+    height: 400px;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerinner{
+    background-image: url(P:\GRASSD\grassd.in\frontend\src\Component\Cimages\offer.png);
+    height: 100%;
+    width: 90%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+
+@media (max-width:600px) {
+    .offerinner{
+        background-image: url(P:\GRASSD\grassd.in\frontend\src\Component\Cimages\offer.png);
+        height: 100%;
+        width: 90%;
+        background-color: aquamarine;
+        border-radius: 6px;
+        background-size: cover;
+    }
+    .offer{
+        height: 90px;
+        width: 100vw;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
