@@ -1,0 +1,40 @@
+.coupon{
+    height: 400px;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: row;
+}
+.couponinner{
+    height: 100%;
+    width: 100%;
+    background-color: #c4e0fa;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.coupon3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.couponwithtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.getcoupon{
+    font-size: 30px;
+    color: #000;
+}
