@@ -1,0 +1,32 @@
+.videomain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.videomain{
+    height: 500px;
+    width: 50vw;
+    position: absolute;
+    top: 15vh;
+    right: 20%;
+
+
+}
+.closeicon{
+    height: 40px;
+    width: auto;
+    background-color: transparent;
+
+}
+.icon{
+    height: 50px;
+    width: 10vw;
+    position: absolute;
+    top: 25vh;
+    right: 25%;
+    cursor: pointer;
+}
+.pos{
+    position: absolute;
+}

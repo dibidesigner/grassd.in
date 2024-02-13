@@ -1,12 +1,12 @@
 import React from "react";
 import ".//static/gifimage.css";
-import gifimage from "./Cimages/gifimage.png";
+import gifvideo from "./Cimages/playstore.gif";
 
 function Gifimage(){
     return(
        <>
        <div className="gifcontainer">
-          <img src={gifimage} alt="gif" className="gifimage" />
+          <img src={gifvideo} alt="gif" className="gifimage" />
        </div>
          
        </>

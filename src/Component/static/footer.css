@@ -36,7 +36,18 @@
     width: 25%;
     height: 100%;
     background-color: transparent;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.part3 iframe{
+    height: 50%;
+    width: 60%;
+}
+.part3 address{
+    padding-left: 30px;
 }
 .heading{
     height: 40px;
@@ -56,7 +67,7 @@
 @media (max-width:600px) {
     .footer{
         width: 100vw;
-        height: 600px;
+        height: 800px;
         background-color: #131820;
         display: flex;
         flex-direction: column;
@@ -75,17 +86,27 @@
     }
     .part2{
         width: 100vw;
-        height: 40%;
+        height: 60%;
         background-color: transparent;
         padding: 30px  30px 0px 90px;
         display: flex;
         flex-direction: column;
+          
+
     }
     .part3{
         width: 100vw;
-        height: 40%;
+        height: 30%;
         background-color: transparent;
         
+    }
+    .part3 iframe{
+        height: 30%;
+        width: 40%;
+    }
+    .part3 address{
+        padding-left: 30px;
+        font-size: 0.5rem;
     }
     .footerlogo{
         height: 50px;
