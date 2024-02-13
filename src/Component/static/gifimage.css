@@ -1,0 +1,30 @@
+
+.gifcontainer{
+    height: 34vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifimage{
+    height: 27vh;
+    width: auto;
+}
+
+@media (max-width:600px) {
+    .gifcontainer{
+    height: 17vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+        
+    .gifimage{
+        height: 6vh;
+        width: auto;
+}
+}

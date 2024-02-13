@@ -1,0 +1,30 @@
+
+.carcontainer{
+    height: 34vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carimage{
+    height: 20vh;
+    width: auto;
+}
+
+@media (max-width:600px) {
+    .carcontainer{
+    height: 4vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+        
+    .carimage{
+        height: 4.5vh;
+        width: auto;
+}
+}

@@ -20,11 +20,12 @@
     align-items: center;
     flex-direction: row;
     gap: 30px;
+    overflow: hidden;
 }
 .coupon3{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
 }
 .couponwithtext{
     display: flex;
@@ -37,4 +38,15 @@
 .getcoupon{
     font-size: 30px;
     color: #000;
+}
+
+
+@media (max-width:600px) {
+    .coupon{
+        height: 250px;
+        width: 100vw;
+    }
+    .getcoupon{
+        font-size:20px ;
+    }
 }

@@ -10,7 +10,7 @@
 .background{
   background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
   width: 100vw;
-  height: 3000px;
+  height: 2300px;
 }
 
 .listmenu{
@@ -171,6 +171,9 @@
     justify-content: left;
     align-items: center;
     padding-left: 20px;
+  }
+  .background{
+    height: 1200px;
   }
   
   

@@ -1,0 +1,12 @@
+.couponlist{
+    height: 22vh;
+    width: auto;
+}
+
+
+@media (max-width:600px) {
+    .couponlist{
+        height: 15vh;
+        width: auto;
+    }
+}
