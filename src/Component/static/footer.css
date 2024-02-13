@@ -47,6 +47,10 @@
     padding-left: 8px;
 }
 
+.map{
+    height: 10vh;
+    width: 100px;
+}
 
 
 @media (max-width:600px) {
