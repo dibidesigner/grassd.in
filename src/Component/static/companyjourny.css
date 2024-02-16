@@ -1,0 +1,17 @@
+.companyjourny{
+    width: 100vw;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.companyjourny h1{
+    font-size: 30px;
+    color: #958603;
+}
+.companyjourny p{
+    color: black;
+}

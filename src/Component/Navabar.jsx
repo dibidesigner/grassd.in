@@ -9,6 +9,9 @@ import {Link} from "react-router-dom";
 
 
 
+
+
+
 function Navbar() {
   const [menu,setMenu]=useState(false)
   function Change(){
@@ -25,16 +28,18 @@ function Navbar() {
             <Menu />
           )
         }
+
+       
        
         
         <div className="navbar">
            <div className="logo">
-            <img src={logo} alt="Logo" title="Go to Home Page"/>
+            <Link to="/"><img src={logo} alt="Logo" title="Go to Home Page"/></Link>
            </div>
            <div className="menu">
               <h2 title="Go to Services Page">SERVICES  </h2>
               <h2 title="Go to Conatact Us Page">CONTACT US</h2>
-              <h2><Link to="/aboutus">ABOUT US</Link></h2>
+              <Link to="/aboutus"><h2>ABOUT US</h2></Link>
               <h2 title="Go to Payment Page">PAYMENT</h2>
            </div>
            <div className="login">

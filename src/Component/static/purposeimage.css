@@ -1,0 +1,16 @@
+.purposeimage{
+    height: 800px;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.goalimage{
+    height: 80%;
+    width: 300px;
+    background-color: green;
+}

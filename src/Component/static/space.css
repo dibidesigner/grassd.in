@@ -1,0 +1,9 @@
+.space{
+    width: 100vw;
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+    
+}

@@ -30,3 +30,23 @@
 .pos{
     position: absolute;
 }
+
+@media (max-width:600px) {
+    .videomain{
+        height: 160px;
+        width: 70vw;
+        position: absolute;
+        top: 8vh;
+        right: 9%;
+    
+    
+    }
+    .icon{
+        height: 26px;
+        width: 10vw;
+        position: absolute;
+        top: 14vh;
+        right: 10%;
+        cursor: pointer;
+    }
+}

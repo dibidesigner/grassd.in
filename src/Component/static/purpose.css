@@ -1,0 +1,19 @@
+.purpose{
+    width: 100vw;
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.purpose h1{
+    font-size: 30px;
+    color: #958603;
+    margin: 20px;
+}
+.purpose p{
+    margin: 50px 50px 0px 50px;
+    color: black;
+}
