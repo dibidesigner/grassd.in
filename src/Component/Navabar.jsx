@@ -44,9 +44,9 @@ function Navbar() {
            </div>
            <div className="login">
             <h4 className="becomeahost" title="Host your car to earn money">Become a Host</h4>
-            <div className="loginbutton" title="Log in with id password">
+            <Link to="/login"><div className="loginbutton" title="Log in with id password">
               <h4 >Log in/Sig in</h4>
-            </div>
+            </div></Link>
            </div>
            <div className="menubar">
             <FaBars className="bar" onClick={Change} />
