@@ -15,7 +15,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
 }
 .footerlogo{
     height: 120px;
@@ -51,7 +50,7 @@
 }
 .heading{
     height: 40px;
-    width: 250px;
+    width: 100%;
     background-color: #0a101b;
     display: flex;
     align-items: center;
