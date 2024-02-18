@@ -32,3 +32,21 @@
 #radius{
     border-radius: 4px 0px 0px 4px;
 }
+
+
+@media (max-width:600px) {
+    .input{
+        height: 3vh;
+        width: 25%;
+        padding-left: 16px;
+        background-color: rgb(222, 224, 226);
+        font-size: 12px;
+        
+    }
+    .button{
+        height: 3vh;
+        width: 20%;
+        background-color: rgb(8, 207, 131);
+        border-radius: 0px 4px 4px 0px;
+    }
+}
