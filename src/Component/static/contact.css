@@ -49,6 +49,7 @@
     height: 5%;
     width: 60%;
     padding-left: 10px;
+    font-size: 15px;
 }
 .textarea{
     height: 15%;
@@ -101,4 +102,58 @@
 
 .textblack{
     color: #000;
+}
+
+
+
+@media (max-width:600px) {
+    .contactdetails{
+        width: 95%;
+        height: 600px;
+        gap: 17px;
+       
+        
+    }
+    .conmainimage{
+        height: 1700px;
+    }
+    .enquiryform{
+        width: 100%;
+        height: 1200px;
+    }
+    .formfield{
+        width: 95%;
+        height: 80%;
+        background-color: #202732;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 5px  black;
+    }
+    .conpart1{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3vh;
+        gap: 12px;
+        
+}
+.mobileno{
+    flex-direction: column;
+    gap: 2px;
+}
+.contactwithicon{
+    gap: 2px;
+}
+.formfield input,.textarea{
+    height: 6%;
+    width: 80%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.conpart2{
+    height: 900px;
+}
 }
