@@ -38,7 +38,7 @@ function Navbar() {
            </div>
            <div className="menu">
               <h2 title="Go to Services Page">SERVICES  </h2>
-              <h2 title="Go to Conatact Us Page">CONTACT US</h2>
+              <Link to="/contactus"><h2 title="Go to Conatact Us Page">CONTACT US</h2></Link>
               <Link to="/aboutus"><h2>ABOUT US</h2></Link>
               <h2 title="Go to Payment Page">PAYMENT</h2>
            </div>

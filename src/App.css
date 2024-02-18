@@ -5,10 +5,11 @@
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   
+  
 
 }
 .background{
-  background-image: url(E:\githubb\grassd.in\src\Images\background.png);
+  background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
   width: 100vw;
   height: 2300px;
 }

@@ -28,14 +28,14 @@ function Login(){
                     <div className="personicon">
                        <FaUser />
                     </div>
-                    <input type="text" placeholder="Enter your id" className="loginput" />
+                    <input type="text" required placeholder="Enter your id" className="loginput" />
                 </div>
                 <div className="forgotwithpass">
                     <div className="urid">
                     <div className="personicon">
                         <IoIosLock />
                     </div>
-                    <input type="password" placeholder="Enter your password" className="loginput"/>
+                    <input type="password" required placeholder="Enter your password" className="loginput"/>
                     </div>
                     <h5>Forgot password?</h5>
                 </div>

@@ -1,0 +1,104 @@
+.conmainimage{
+    width: 100vw;
+    height: 1200px;
+    background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.conpart1{
+    width: 95%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conpart2{
+    width: 95%;
+    height: 30%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactdetails{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40%;
+}
+.formfield{
+    width: 70%;
+    height: 80%;
+    background-color: #202732;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px  black;
+}
+.formfield input,.textarea{
+    height: 5%;
+    width: 60%;
+    padding-left: 10px;
+}
+.textarea{
+    height: 15%;
+}
+.enquiryform{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.enquiryboton{
+    padding: 0px;
+    height: 5%;
+    width: 8px;
+    background-color: #00ff7e;
+    margin-top: 20px;
+    color: black;
+}
+.enquiryboton:hover{
+    background-color: #00ff04;
+}
+
+.mobileno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.no,.mailid,.conlocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contactwithicon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details label{
+    font-size: 30px;
+    color: #848900;
+}
+
+.textblack{
+    color: #000;
+}
