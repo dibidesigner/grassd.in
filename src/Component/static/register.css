@@ -1,0 +1,119 @@
+.registerbackground{
+    background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+}
+.registrationtitle{
+    width: 75%;
+    height: 10%;
+    background-color: #0594b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registrationtitle label{
+    font-size: 25px;
+}
+.registrationform{
+    width: 75%;
+    height: 90%;
+    background-color: transparent;
+    border: 1px solid #0594b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.enterid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.iconcover{
+    height: 4vh;
+    width: 20%;
+    background-color: #0594b9;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enterid input{
+    height: 4vh;
+    width: 400px;
+    padding-left: 20px;
+}
+.leftpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.regform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.regboton{
+    height: 5vh;
+    width: 30%;
+    background-color: #0594b9;
+    font-size: 16px;
+    cursor: pointer;
+}
+.regboton:hover{
+    background-color: #05b97a;
+}
+
+@media (max-width:600px) {
+    .registrationtitle{
+        width: 96%;
+    }
+    .registrationform{
+        width: 96%;
+    }
+    .inputform{
+        flex-direction: column;
+    }
+    .enterid input{
+        height: 4vh;
+        width: 200px;
+        padding-left: 20px;
+    }
+    .iconcover{
+        height: 4vh;
+        width: 50px;
+    }
+    .regform{
+        gap: 40px;
+    }
+    .regboton{
+        height: 4vh;
+        width: 50%;
+    }
+    .registerbackground{
+        height: 600px;
+        padding: 20px 0px 0px 20px;
+    }
+    .registrationform{
+        margin-bottom: 20px;
+    }
+    
+}
