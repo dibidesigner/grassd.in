@@ -8,3 +8,9 @@
     border-top: 1px solid rgb(72, 100, 118);
     margin: 10px;
 }
+
+@media (max-width:600px) {
+    .aboutbg{
+        height: 6000px;
+    }
+}

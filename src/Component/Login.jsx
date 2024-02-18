@@ -6,6 +6,7 @@ import Search from './Search';
 import ".//static/login.css";
 import { FaUser } from "react-icons/fa";
 import { IoIosLock } from "react-icons/io";
+import {Link} from "react-router-dom";
 
 
 
@@ -16,7 +17,7 @@ function Login(){
           <Navbarspace /> 
           <Search />
           <Navbarspace />
-          <div className="background">
+          <div className="backgroundlogin">
             <div className="formheading">
                 <h1>Log In Form</h1>
             </div>
@@ -29,16 +30,22 @@ function Login(){
                     </div>
                     <input type="text" placeholder="Enter your id" className="loginput" />
                 </div>
-                <div className="urid">
-                   <div className="personicon">
-                       <IoIosLock />
-                   </div>
-                   <input type="text" placeholder="Enter your password" className="loginput"/>
-                   
+                <div className="forgotwithpass">
+                    <div className="urid">
+                    <div className="personicon">
+                        <IoIosLock />
+                    </div>
+                    <input type="password" placeholder="Enter your password" className="loginput"/>
+                    </div>
+                    <h5>Forgot password?</h5>
                 </div>
-                <h5>Forgot password?</h5>
+                
+                
                 <input type="submit" value="Log In" className="loginboton"/>
             </form>
+            <div className="registerplease">
+                <h4>If you don't have account? <Link to="/registrationform?"><span className="registerspan">Register</span></Link></h4>
+            </div>
                 
                 
                 

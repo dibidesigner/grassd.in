@@ -1,3 +1,6 @@
+.backgroundlogin{
+     background-image: url(E:\githubb\grassd.in\src\Images\background.png);
+}
 .formheading{
     height: 14vh;
     width: 100vw;
@@ -48,6 +51,12 @@
     flex-direction: row;
     
 }
+.forgotwithpass h5{
+    color: black;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .loginput{
     height: 8vh;
     width: 400px;
@@ -63,4 +72,49 @@
 }
 .loginboton:hover{
     background-color: #1c9b2d;
+}
+.passwordhouse{
+    display: flex;
+    flex-direction: column;
+}
+.registerplease{
+    width: 100vw;
+    height: 20vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerplease h4{
+    color: black;
+}
+.registerspan{
+    text-decoration: underline;
+    color: #1c9b2d;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+    .loginboton{
+        width: 130px;
+        height: 6vh;
+       
+        
+    }
+    .loginput{
+        height: 7vh;
+        width: 240px;
+       
+        
+    }
+    .personicon{
+        height: 7vh;
+        width: 65px;
+        
+    }
+    .forgotwithpass h5{
+        margin-top: 8px;
+    }
 }

@@ -14,4 +14,12 @@
 }
 .companyjourny p{
     color: black;
+    word-break: break-all;
+    margin: 0px 40px 0px 40px;
+}
+
+@media (max-width:600px) {
+    .companyjourny{
+        height: 600px;
+    }
 }

@@ -45,7 +45,7 @@ function Navbar() {
            <div className="login">
             <h4 className="becomeahost" title="Host your car to earn money">Become a Host</h4>
             <Link to="/login"><div className="loginbutton" title="Log in with id password">
-              <h4 >Log in/Sig in</h4>
+              <h4 >Log in/Sign in</h4>
             </div></Link>
            </div>
            <div className="menubar">
