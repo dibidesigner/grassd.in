@@ -1,5 +1,4 @@
 import React from "react";
-import ".//static/caradv.css";
 import Carimage from "./Carimage";
 
 function Caradv(){
