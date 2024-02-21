@@ -6,22 +6,31 @@
     justify-content: center;
     align-items: center;
 }
-.offerinner{
-    background-image: url(P:\GRASSD\grassd.in\frontend\src\Component\Cimages\offer.png);
+.slidecss{
+    width: 95%;
     height: 100%;
-    width: 90%;
-    background-color: aquamarine;
-    border-radius: 10px;
-    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+.offerinner{
+    
+    height: 300px;
+    width: 700px;
+    background-color: red;
+    border-radius: 10px;
+    
+}
+
 
 
 @media (max-width:600px) {
     .offerinner{
-        background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
+        
         height: 100%;
         width: 90%;
-        background-color: aquamarine;
+        background-color: transparent;
         border-radius: 6px;
         background-size: cover;
     }

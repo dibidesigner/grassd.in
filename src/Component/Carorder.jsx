@@ -1,13 +1,22 @@
 import React from "react";
 import Carlist from "./Carlist";
 import Guide from "./Guide";
-import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
 import ".//static/carorder.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 
 
 function Carorder() {
+   var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+    };
   return (
     <>
         <div className="carorder"> 
@@ -15,14 +24,84 @@ function Carorder() {
               <div className="carordershape1"></div>
               <div className="carordershape2">
                  <div className="carordershape2innerdiv">
-                     <div className="carordershape2innerdivpart1">
-                      <FaAngleLeft className="arrow" />
-                      <Carlist />
-                      <Carlist />
-                      <Carlist />
-                      <Carlist />
-                      <FaAngleRight className="arrow"/>
-                     </div>
+                     <Slider {...settings} className="carordershape2innerdivpart1">
+                      {/* <FaAngleLeft className="arrow" /> */}
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      <div>
+                        <Carlist />
+                      </div>
+                      
+                      
+                      {/* <FaAngleRight className="arrow"/> */}
+                     </Slider>
                      
                      <div className="middletext">
                         <div className="seemorecar">
@@ -34,14 +113,48 @@ function Carorder() {
                         
                         <h3>How to rent car with us</h3>
                      </div>
-                     <div className="carordershape2innerdivpart2">
-                      <FaAngleLeft className="arrow"/>
-                      <Guide step="Step 1"/>
-                      <Guide step="Step 2"/>
-                      <Guide step="Step 3"/>
-                      <Guide step="Step 4"/>
-                      <FaAngleRight className="arrow"/>
-                     </div>
+                     <Slider {...settings} className="carordershape2innerdivpart2">
+                      {/* <FaAngleLeft className="arrow"/> */}
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      
+                      
+                      {/* <FaAngleRight className="arrow"/> */}
+                     </Slider>
                     
                  </div>
               </div>
