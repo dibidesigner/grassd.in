@@ -5,7 +5,7 @@ import ".//static/carorder.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import {Link} from "react-router-dom";
 
 
 
@@ -27,76 +27,76 @@ function Carorder() {
                      <Slider {...settings} className="carordershape2innerdivpart1">
                       {/* <FaAngleLeft className="arrow" /> */}
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 1" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 2" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 3" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 4" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 5"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 6"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 7"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 8"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 9"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 10"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 11" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 12" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 13"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 14" />
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 15"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 16"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 17"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 18"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 19"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 20"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 21"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 22"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 23"/>
                       </div>
                       <div>
-                        <Carlist />
+                        <Carlist step="Step 24"/>
                       </div>
                       
                       
@@ -107,7 +107,7 @@ function Carorder() {
                         <div className="seemorecar">
                           <hr className="hrline"/>
                           <div className="text">
-                             <h5>See more car</h5>
+                             <Link to="/filter-car"><h5>See more car</h5></Link>
                           </div>
                         </div>
                         

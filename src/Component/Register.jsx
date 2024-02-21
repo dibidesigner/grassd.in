@@ -9,11 +9,15 @@ import { FaUserAlt } from "react-icons/fa";
 import { MdCall } from "react-icons/md";
 import { IoMail } from "react-icons/io5";
 import { IoIosLock } from "react-icons/io";
+import { useEffect } from 'react';
 
 
 
 
 function Register() {
+  useEffect(()=>{
+    document.title="Grassd | Register ";
+},[])
   return (
     <>
       <div>

@@ -14,38 +14,37 @@ function Offer() {
   var settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear"
+   
   };
   return (
     <>
      <div className="offer">
+      {/* <img src={Offerimage1} /> */}
         <Slider {...settings} className="slidecss">
-          <div>
+          <div className="offerimage">
             <img src={Offerimage1} alt="Offer" />
           </div>
-          <div>
+          <div className="offerimage">
             <img src={Offerimage2} alt="Offer" />
           </div>
-          <div>
+          <div className="offerimage">
             <img src={Offerimage1} alt="Offer" />
           </div>
-          <div>
+          <div className="offerimage">
             <img src={Offerimage2} alt="Offer" />
           </div>
-          <div>
-              <img src={Offerimage1} alt="Offer" />
+          <div className="offerimage">
+            <img src={Offerimage1} alt="Offer" />
           </div>
-          <div>
+          <div className="offerimage">
             <img src={Offerimage2} alt="Offer" />
-        </div>
-               
-         
-            
+          </div>  
         </Slider>
       </div>  
     </>

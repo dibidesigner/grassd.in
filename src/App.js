@@ -7,6 +7,7 @@ import Aboutus from "./Component/Aboutus";
 import Login from "./Component/Login";
 import Register from './Component/Register';
 import Contactpage from './Component/Contactpage';
+import Filterpage from './Component/Filterpage';
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/registrationform?" element={<Register />} />
           <Route exact path="/contactus" element={<Contactpage />} />
+          <Route exact path='/filter-car' element={<Filterpage />} />
       </Routes>
     
         
