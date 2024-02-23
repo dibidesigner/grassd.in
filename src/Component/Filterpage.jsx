@@ -37,24 +37,42 @@ function Filterpage(){
                     <div className="filterbox">
                         <label className="textblack">Brand :</label>
                         <select className="selectbox">
-                            <option className="textblack">Maruti</option>
-                            <option className="textblack">Hyundai</option>
-                            <option className="textblack">TATA</option>
+                            <option  className="textblack">All</option>
+                            <option className="textblack">Fortuner</option>
+                            <option className="textblack">Thar</option>
+                            <option className="textblack">Compass</option>
+                            <option className="textblack">Creta</option>
+                            <option className="textblack">Altroz</option>
+                            <option className="textblack">Swift</option>
+                            <option className="textblack">Fronx</option>
+                            <option className="textblack">Breeza</option>
+                            <option className="textblack">I 20</option>
+                            <option className="textblack">Ignis</option>
+                            <option className="textblack">Alto</option>
+                            <option className="textblack">Wagnor</option>
+                            <option className="textblack">Polo</option>
+                            <option className="textblack">Tiago</option>
+                            <option className="textblack">Scorpio</option>
+                            <option className="textblack">Ertiga</option>
+                            <option className="textblack">Kwid</option>
+                            <option className="textblack">Hondacity</option>
+                            <option className="textblack">Celerio</option>
+                            
                         </select>
                     </div>
                     <div className="filterbox">
                         <label className="textblack">Fuel Type :</label>
                         <select className="selectbox">
-                            <option>Petrol</option>
-                            <option>Diesel</option>
-                            <option>CNG</option>
-                            <option>Electric</option>
+                            <option className="textblack">Petrol</option>
+                            <option className="textblack">Diesel</option>
+                            <option className="textblack">CNG</option>
+                            <option className="textblack">Electric</option>
                         </select>
                     </div>
                     <div className="filterbox">
                         <label className="textblack">Seating Capacity :</label>
                         <select className="selectbox">
-                            <option></option>
+                            <option>7 Person</option>
                         </select>
                     </div>
                     <div className="filterbox">
