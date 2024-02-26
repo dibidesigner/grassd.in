@@ -1,0 +1,66 @@
+.bookingmain{
+    background-image: url(P:\GRASSD\grassd.in\frontend\src\Images\background.png);
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.bookingform{
+    height: 80%;
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.leftsideform,.rightsideform{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bookinginput{
+    height: 35px;
+    width: 350px;
+    padding-left: 10px;
+}
+.bookingboton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.bookboton,.bookclearboton{
+    height: 35px;
+    width: 150px;
+}
+.bookboton{
+    background-color: rgb(5, 212, 74);
+}
+.bookclearboton{
+    background-color: rgb(212, 5, 5);
+}
+.term{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 90%;
+    background-color: transparent;
+    margin-top: 30px;
+    gap: 10px;
+}

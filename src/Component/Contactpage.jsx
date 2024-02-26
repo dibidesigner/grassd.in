@@ -7,8 +7,12 @@ import Footer from "./Footer";
 import { MdCall } from "react-icons/md";
 import { IoMail } from "react-icons/io5";
 import { MdLocationPin } from "react-icons/md";
+import { useEffect } from "react";
 
 function Contactpage(){
+    useEffect(()=>{
+        document.title="Grassd | Contact Us ";
+    },[])
     return(
        <>
           <Navbar/>

@@ -7,10 +7,14 @@ import Search from './Search';
 import { FaUser } from "react-icons/fa";
 import { IoIosLock } from "react-icons/io";
 import {Link} from "react-router-dom";
+import { useEffect } from "react";
 
 
 
 function Login(){
+    useEffect(()=>{
+        document.title="Grassd | Log In";
+    },[])
     return(
         <>
           <Navbar />

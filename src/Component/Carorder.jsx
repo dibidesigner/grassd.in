@@ -1,13 +1,28 @@
 import React from "react";
 import Carlist from "./Carlist";
 import Guide from "./Guide";
+<<<<<<< HEAD
 import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
 // import ".//static/carorder.css";
 
+=======
+import ".//static/carorder.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import {Link} from "react-router-dom";
+>>>>>>> 5b9854d11d7416fd9d3be448b998158899fe5aca
 
 
 
 function Carorder() {
+   var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+    };
   return (
     <>
         <div className="carorder"> 
@@ -15,33 +30,137 @@ function Carorder() {
               <div className="carordershape1"></div>
               <div className="carordershape2">
                  <div className="carordershape2innerdiv">
-                     <div className="carordershape2innerdivpart1">
-                      <FaAngleLeft className="arrow" />
-                      <Carlist />
-                      <Carlist />
-                      <Carlist />
-                      <Carlist />
-                      <FaAngleRight className="arrow"/>
-                     </div>
+                     <Slider {...settings} className="carordershape2innerdivpart1">
+                      {/* <FaAngleLeft className="arrow" /> */}
+                      <div>
+                        <Carlist step="Step 1" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 2" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 3" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 4" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 5"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 6"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 7"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 8"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 9"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 10"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 11" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 12" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 13"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 14" />
+                      </div>
+                      <div>
+                        <Carlist step="Step 15"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 16"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 17"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 18"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 19"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 20"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 21"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 22"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 23"/>
+                      </div>
+                      <div>
+                        <Carlist step="Step 24"/>
+                      </div>
+                      
+                      
+                      {/* <FaAngleRight className="arrow"/> */}
+                     </Slider>
                      
                      <div className="middletext">
                         <div className="seemorecar">
                           <hr className="hrline"/>
                           <div className="text">
-                             <h5>See more car</h5>
+                             <Link to="/filter-car"><h5>See more car</h5></Link>
                           </div>
                         </div>
                         
                         <h3>How to rent car with us</h3>
                      </div>
-                     <div className="carordershape2innerdivpart2">
-                      <FaAngleLeft className="arrow"/>
-                      <Guide step="Step 1"/>
-                      <Guide step="Step 2"/>
-                      <Guide step="Step 3"/>
-                      <Guide step="Step 4"/>
-                      <FaAngleRight className="arrow"/>
-                     </div>
+                     <Slider {...settings} className="carordershape2innerdivpart2">
+                      {/* <FaAngleLeft className="arrow"/> */}
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      <div>
+                         <Guide step="Step 1"/>
+                      </div>
+                      
+                      
+                      {/* <FaAngleRight className="arrow"/> */}
+                     </Slider>
                     
                  </div>
               </div>
