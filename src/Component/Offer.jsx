@@ -1,8 +1,11 @@
 import React from "react";
 import ".//static/Offer.css";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Slider from "react-slick";
 =======
+=======
+>>>>>>> parent of de21c67 (Tailwing change)
 
 >>>>>>> parent of de21c67 (Tailwing change)
 

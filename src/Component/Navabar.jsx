@@ -14,6 +14,7 @@ import { FaBars } from "react-icons/fa";
        
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         <header className="main-nav bg-black h-14 w-full flex flex-row fixed">
            <div className="flex justify-center items-center">
              <img src={Logo} alt="Logo" className="h-8"/>
@@ -32,6 +33,8 @@ import { FaBars } from "react-icons/fa";
              <FaBars />
            </div>
 =======
+=======
+>>>>>>> parent of de21c67 (Tailwing change)
         <div className="navbar">
            <div className="logo">
             <Link to="/"><img src={logo} alt="Logo" title="Go to Home Page"/></Link>
