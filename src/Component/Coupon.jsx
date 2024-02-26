@@ -1,5 +1,5 @@
 import React from "react";
-import ".//static/Coupon.css";
+// import ".//static/Coupon.css";
 import Couponlist from "./Couponlist";
 import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
 

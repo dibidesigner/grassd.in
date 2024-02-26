@@ -1,9 +1,9 @@
 import React from "react";
-import ".//static/mainimage.css";
+// import ".//static/mainimage.css";
 import Video from "./Video";
 import { useState } from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
-import ".//static/video.css";
+// import ".//static/video.css";
 
 
 

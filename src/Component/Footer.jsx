@@ -1,5 +1,5 @@
 import React from "react";
-import ".//static/footer.css";
+// import ".//static/footer.css";
 import logo from "./Cimages/logo.png";
 
 

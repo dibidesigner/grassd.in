@@ -1,5 +1,5 @@
 import React from "react";
-import ".//static/gifimage.css";
+// import ".//static/gifimage.css";
 import gifvideo from "./Cimages/playstore.gif";
 
 function Gifimage(){

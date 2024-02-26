@@ -1,6 +1,6 @@
 import React from "react";
 import Car from "./Cimages/carimage.png";
-import "./static/carlist.css";
+// import "./static/carlist.css";
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navabar';
-import ".//static/register.css";
+// import ".//static/register.css";
 import Footer from './Footer';
 import Navbarspace from './Navbarspace';
 import Search from './Search';

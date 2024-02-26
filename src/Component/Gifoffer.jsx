@@ -1,6 +1,6 @@
 import React from "react";
 import Gifimage from "./Gifimage";
-import ".//static/gifoffer.css";
+// import ".//static/gifoffer.css";
 
 function Gifoffer(){
     return(

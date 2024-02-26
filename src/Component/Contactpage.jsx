@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navabar";
 import Navbarspace from "./Navbarspace";
 import Search from "./Search";
-import ".//static/contact.css";
+// import ".//static/contact.css";
 import Footer from "./Footer";
 import { MdCall } from "react-icons/md";
 import { IoMail } from "react-icons/io5";

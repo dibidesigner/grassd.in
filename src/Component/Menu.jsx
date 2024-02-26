@@ -1,5 +1,5 @@
 import React from "react";
-import ".//static/menu.css";
+// import ".//static/menu.css";
 
 function Menu(){
     return(

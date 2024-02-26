@@ -1,5 +1,5 @@
 import React from "react";
-import ".//static/aboutgrassd.css";
+// import ".//static/aboutgrassd.css";
 import carwithlogo from "./Cimages/carwithlogo.png";
 
 function Aboutgrassd(){

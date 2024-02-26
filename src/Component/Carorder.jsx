@@ -2,7 +2,7 @@ import React from "react";
 import Carlist from "./Carlist";
 import Guide from "./Guide";
 import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
-import ".//static/carorder.css";
+// import ".//static/carorder.css";
 
 
 

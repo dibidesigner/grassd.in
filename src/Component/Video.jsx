@@ -1,5 +1,5 @@
 import React from "react";
-import ".//static/video.css";
+// import ".//static/video.css";
 
 
 

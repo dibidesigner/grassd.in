@@ -3,7 +3,7 @@ import Navbar from "./Navabar";
 import Navbarspace from "./Navbarspace";
 import Footer from "./Footer";
 import Search from './Search';
-import ".//static/login.css";
+// import ".//static/login.css";
 import { FaUser } from "react-icons/fa";
 import { IoIosLock } from "react-icons/io";
 import {Link} from "react-router-dom";

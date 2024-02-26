@@ -1,6 +1,6 @@
 import React from "react";
 import Coupon from "./Cimages/coupon.png";
-import ".//static/couponlist.css";
+// import ".//static/couponlist.css";
 
 function Couponlist(){
     return(
