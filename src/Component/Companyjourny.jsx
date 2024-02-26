@@ -1,5 +1,5 @@
 import React from "react";
-// import ".//static/companyjourny.css";
+import ".//static/companyjourny.css";
 
 function Companyjourny(){
     return(

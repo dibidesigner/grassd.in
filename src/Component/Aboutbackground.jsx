@@ -1,6 +1,6 @@
 import React from "react";
 import Aboutgrassd from "./Aboutgrassd";
-// import ".//static/aboutbackground.css";
+import ".//static/aboutbackground.css";
 import Companyjourny from "./Companyjourny";
 import Purpose from "./Purpose";
 

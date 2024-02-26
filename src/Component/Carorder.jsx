@@ -1,9 +1,14 @@
 import React from "react";
 import Carlist from "./Carlist";
 import Guide from "./Guide";
+<<<<<<< HEAD
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 // import ".//static/carorder.css";
+=======
+import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
+import ".//static/carorder.css";
+>>>>>>> parent of de21c67 (Tailwing change)
 
 
 

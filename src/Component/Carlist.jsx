@@ -1,7 +1,11 @@
 import React from "react";
 import Car from "./Cimages/carimage.png";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 // import "./static/carlist.css";
+=======
+import "./static/carlist.css";
+>>>>>>> parent of de21c67 (Tailwing change)
 
 
 

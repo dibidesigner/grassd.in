@@ -1,5 +1,5 @@
 import React from "react";
-// import ".//static/purpose.css";
+import ".//static/purpose.css";
 import Purposeimage from "./Purposeimage";
 function Purpose(){
     return(

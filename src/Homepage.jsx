@@ -16,7 +16,7 @@ function Allpage(){
     return(
        <>
             <Navbar />
-            {/* <Mainimage />
+            <Mainimage />
             <div className='background'>
                 <Carorder />
                 <Offer />
@@ -24,7 +24,7 @@ function Allpage(){
                 <Gifoffer />
                 <Caradv />
             </div>
-            <Footer />  */}
+            <Footer /> 
             </>
     );
 }

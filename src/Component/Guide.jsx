@@ -1,5 +1,5 @@
 import React from "react";
-// import ".//static/guide.css";
+import ".//static/guide.css";
 
 
 
