@@ -1,17 +1,10 @@
 import React from "react";
 import Carlist from "./Carlist";
 import Guide from "./Guide";
-<<<<<<< HEAD
-import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
+import Slider from "react-slick";
+import { Link } from "react-router-dom";
 // import ".//static/carorder.css";
 
-=======
-import ".//static/carorder.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import {Link} from "react-router-dom";
->>>>>>> 5b9854d11d7416fd9d3be448b998158899fe5aca
 
 
 

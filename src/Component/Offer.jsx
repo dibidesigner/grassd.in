@@ -1,6 +1,6 @@
 import React from "react";
 import ".//static/Offer.css";
-
+import Slider from "react-slick";
 
 
 
@@ -23,22 +23,22 @@ function Offer() {
       {/* <img src={Offerimage1} /> */}
         <Slider {...settings} className="slidecss">
           <div className="offerimage">
-            <img src={Offerimage1} alt="Offer" />
+            <img  alt="Offer" />
           </div>
           <div className="offerimage">
-            <img src={Offerimage2} alt="Offer" />
+            <img  alt="Offer" />
           </div>
           <div className="offerimage">
-            <img src={Offerimage1} alt="Offer" />
+            <img  alt="Offer" />
           </div>
           <div className="offerimage">
-            <img src={Offerimage2} alt="Offer" />
+            <img  alt="Offer" />
           </div>
           <div className="offerimage">
-            <img src={Offerimage1} alt="Offer" />
+            <img  alt="Offer" />
           </div>
           <div className="offerimage">
-            <img src={Offerimage2} alt="Offer" />
+            <img  alt="Offer" />
           </div>  
         </Slider>
       </div>  

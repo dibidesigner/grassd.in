@@ -1,11 +1,7 @@
 import React from "react";
 import Car from "./Cimages/carimage.png";
-<<<<<<< HEAD
-// import "./static/carlist.css";
-=======
-import "./static/carlist.css";
 import { Link } from "react-router-dom";
->>>>>>> 5b9854d11d7416fd9d3be448b998158899fe5aca
+// import "./static/carlist.css";
 
 
 
