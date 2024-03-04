@@ -25,7 +25,7 @@ function Contactpage(){
                     <div className="details">
                         <label>Contact Us</label>
                         <p className="textblack">Need to get in touch with ? Either fill out form with your<br />
-inquirty or find the email you’d like to contact below.</p>
+inquirty or find the email youd like to contact below.</p>
                     </div>
                     <div className="contactwithicon">
                         <div className="mobileno">
@@ -54,7 +54,7 @@ inquirty or find the email you’d like to contact below.</p>
                             <input type="text" placeholder="Email id" />
                             <br />
                             <textarea placeholder="What can i help you...." className="textarea" />
-                            <input type="submit" value="Enquiry" className="enquiryboton"/>
+                            <input type="submit" value="Enquiry"  className="enquiryboton"/>
                     </form>
                 </div>
             </div>
